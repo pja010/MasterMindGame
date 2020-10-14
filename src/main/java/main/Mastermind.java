@@ -33,9 +33,9 @@ public class Mastermind {
         while (numberOfGuesses < GuessesAllowed) {
             System.out.print("Guess " + numberOfGuesses + ": ");
             userGuessSequence = scnr.nextLine().strip();
-//            userGuessSequence.compareTo(numberOfGuesses);
+
             for (int i = 0; i < 4; ++i) {
-                codePeg = (int)userGuessSequence.charAt(i);
+                codePeg = Integer.parseInt(userGuessSequence.substring(i,i+1));
                 if (codePeg == solutionCode.valueAt(i)) {
                     scorePegString += "*";
                 }

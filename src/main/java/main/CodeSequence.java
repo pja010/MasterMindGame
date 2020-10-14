@@ -13,7 +13,7 @@ public class CodeSequence {
     private final int codeLength = 4;
     private int[] codeSequence = new int[codeLength];
     private Random rand = new Random();
-    private final int upperBound = 7;
+    private final int upperBound = 6;
 
     /**
      * Generate random integer sequence.
@@ -21,12 +21,8 @@ public class CodeSequence {
      */
     public void setCodeSequence() {
         for (int i = 0; i < codeSequence.length; ++i) {
-            codeSequence[i] = rand.nextInt(upperBound);
+            codeSequence[i] = rand.nextInt(upperBound) + 1;
         }
-    }
-
-    public int[] getCodeSequence() {
-        return codeSequence;
     }
 
     public int valueAt(int index) {
@@ -45,7 +41,12 @@ public class CodeSequence {
 
     @Override
     public String toString() {
-        return "CodeSequence is " + Arrays.toString(codeSequence);
+//        return "CodeSequence is " + Arrays.toString(codeSequence);
+        String s = "";
+        for (int i = 0; i < codeSequence.length; i++) {
+            s += codeSequence[i];
+        }
+        return s;
     }
 
 //    public static void main(String[] args) {
@@ -54,5 +55,6 @@ public class CodeSequence {
 //        System.out.println(c1);
 //        System.out.println(c1.contains(1));
 //        System.out.println(c1.valueAt(0));
+//        System.out.println(c1.toString());
 //    }
 }
