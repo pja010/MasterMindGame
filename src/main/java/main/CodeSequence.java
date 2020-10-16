@@ -43,6 +43,14 @@ public class CodeSequence {
     }
 
     /**
+     * Return the list containing the code sequence
+     * @return the list in code sequence
+     */
+    public int[] getCodeSequence() {
+        return codeSequence;
+    }
+
+    /**
      * Returns value at given index
      * @param index - integer
      * @return value at index, an integer
