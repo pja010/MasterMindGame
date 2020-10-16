@@ -66,7 +66,7 @@ public class Mastermind {
      */
     private static void startNewGame() {
         scnr = new Scanner((System.in));
-        System.out.println(solutionCode);
+        //System.out.println(solutionCode);
 
         System.out.println("Guess my code, using numbers between 1-6. You have " + GUESSES_ALLOWED + " guesses.");
         while (numberOfGuesses < GUESSES_ALLOWED) {
