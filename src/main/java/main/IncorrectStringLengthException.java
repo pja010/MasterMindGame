@@ -13,7 +13,9 @@
  * Class: IncorrectStringLengthException
  *
  * Description:
- * Exception class that handles inputs of inappropriate length in Mastermind program
+ * Exception class that handles inputs of
+ * inappropriate length in Mastermind
+ * program
  * ****************************************
  */
 

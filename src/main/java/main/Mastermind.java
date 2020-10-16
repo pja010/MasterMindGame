@@ -13,9 +13,10 @@
  * Class: Mastermind
  *
  * Description:
- * A software implementation of mastermind
- * where computer generates marble code sequence
- * and user is to guess the correct sequence.
+ * Currently a single player implementation
+ * of mastermind where computer generates
+ * marble code sequence and user is to
+ * guess the correct sequence.
  * ****************************************
  */
 package main;
