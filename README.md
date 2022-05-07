@@ -8,11 +8,11 @@ Semester: Fall 2020
 ## Team Information
 Per Astrom, Guillermo Torres
 ## Project Information
-*An implementation of the board game "Mastermind"*
-*We have done an implementation of the game
+*An implementation of the board game "Mastermind"
+We have done an implementation of the game
 "Mastermind" in a single-player form with two files called 
 CodeSequence and MasterMind. Other Files include three UML Diagrams and two test files for both
-main programs. *
+main programs.*
 ## How to run it
 *In order to play the game, you will need to run the main
 method in the MasterMind file which will open up the
